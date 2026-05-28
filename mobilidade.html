@@ -325,25 +325,50 @@
 </div>
 
 
+
+
+
+    <script>
+
+    const carrosselContainer = document.getElementById('carrossel-fullscreen');
+
+// Executa ao clicar duas vezes no carrossel (evita conflito com arrastar os slides)
+carrosselContainer.addEventListener('dblclick', () => {
+  if (!document.fullscreenElement) {
+    // Entra em tela cheia
+    carrosselContainer.requestFullscreen()
+      .catch(err => console.error(`Erro ao ativar tela cheia: ${err.message}`));
+  } else {
+    // Sai da tela cheia se já estiver nela
+    document.exitFullscreen();
+  }
+});
+
+// Força o Swiper a atualizar o layout após mudar para tela cheia
+document.addEventListener('fullscreenchange', () => {
+  // Substitua "meuSwiper" pela variável onde você instanciou o seu Swiper
+  if (typeof meuSwiper !== 'undefined') {
+    setTimeout(() => meuSwiper.update(), 300); 
+  }
+});
+</script>
+
 <script>
-const botaoFullscreen = document.getElementById('btn-fullscreen');
+    const botaoFullscreen = document.getElementById('btn-fullscreen');
 const carrosselSecao = document.querySelector('.carrossel');
 
 botaoFullscreen.addEventListener('click', () => {
     if (!document.fullscreenElement) {
-        // Entra em tela cheia
+        // Solicita a abertura da seção em tela cheia
         carrosselSecao.requestFullscreen().catch(err => {
-            console.error(`Erro ao tentar abrir em tela cheia: ${err.message}`);
+            console.error(`Erro ao tentar abrir tela cheia: ${err.message}`);
         });
     } else {
         // Sai da tela cheia
         document.exitFullscreen();
     }
 });
-
-
 </script>
-
 
     
     <div class="rodapepadrao"> <!--RODAPÉ-->
