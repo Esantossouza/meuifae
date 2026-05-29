@@ -24,7 +24,7 @@
 
 
 .titulo-digitando1 {
-    font-family: monospace;
+    font-family: Garamond;
     /* Configuração para o degradê no texto */
     background: linear-gradient(97.54deg, black 20%, yellow 15%, blue 20%, #110003 25%, darkred 30%, rgb(2, 66, 15) 35%);
     background-clip: text;
