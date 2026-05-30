@@ -3,7 +3,7 @@ hr {
 }
 
 .rodapé {
-    background: linear-gradient(to bottom, #eea3a3 0%,#490606 100%);
+   background-color: aquamarine;
     padding: 1em;
 }
 
@@ -57,9 +57,9 @@ hr {
   text-align: justify;
   font-size:12px;
   padding: 5px 5px;
-  background: linear-gradient(to bottom, #eea3a3 0%,#490606 100%);
+ background-color: aquamarine;
   margin-top:15px;
-  color: var(--branco);
+  color: rgb(12, 53, 12);
   vertical-align: displayHeight;
   height: height;
   width: displayWidth;
@@ -68,7 +68,7 @@ hr {
 
 .copyright {
     text-align:center;
-	color: var(--branco);
+	color:rgb(2, 26, 2);
 	font-size: 10px;
 	margin: 0px 0px;
 }
