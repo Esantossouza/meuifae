@@ -95,7 +95,7 @@
 
 .caixa {
     background-color: white; /* Cor de fundo para visualização */
-    color: white; /* Cor do texto */
+    color: darkred; /* Cor do texto */
     text-align: center;
     padding: 1px 0;
     width: 49%; /* Define que cada divisão ocupará cerca de 1/4 da tela (menos a margem) */
