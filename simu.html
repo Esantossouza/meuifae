@@ -98,144 +98,7 @@
 
                 <!--INÍCIO DO CARROSSEL DE IMAGENS E CLASS DO CSS--><!--FIM DO CARROSSEL-->
 
-     <section class="carrossel"> 
-  <h1 class="carrossel__titulo">🌐 CONSTRUÇÕES E APRENDIZAGENS <button id="btn-fullscreen">🖥️ + ou - Tela</button></h1>
-
-  <!-- Adicionamos o id "carrossel-fullscreen" aqui -->
-  <div class="carrossel__container" id="carrossel-fullscreen"> 
-    <div class="swiper"> 
-      <div class="swiper-pagination"></div> 
-      <div class="swiper-wrapper"> 
-        <div class="swiper-slide">
-                <img src="img/mapaces1.svg" alt="Repositórios e publicações"></div>
-                <div class="swiper-slide"><img src="img/mapadesaces1.svg" alt="Programaçao e publicações"></div>
-                <div class="swiper-slide"><img src="img/mapaproblaces1.svg" alt="Projeto e publicações"></div>
-                <div class="swiper-slide"><img src="img/conaces1.svg" alt="Códigos e simuladores"></div>
-                <div class="swiper-slide"><img src="img/constaces1.svg" alt="Comunidade GitHub"></div>
-                <div class="swiper-slide"><img src="img/constifa1.svg" alt="Repositórios e publicações"></div>
-                <div class="swiper-slide"><img src="img/diraces1.svg" alt="Simuladores de robótica"></div>
-                <div class="swiper-slide"><img src="img/forfake1.svg" alt="Programaçao e publicações"></div>
-                <div class="swiper-slide"><img src="img/fundaces1.svg" alt="Códigos e simuladores"></div>
-                <div class="swiper-slide"><img src="img/objeto.svg" alt="Projeto e publicações"></div>
-                <div class="swiper-slide"><img src="img/vs1.svg" alt="Repositórios e publicações"></div>
-      </div> 
-      <div class="swiper-button-prev"></div> 
-      <div class="swiper-button-next"></div> 
-    </div> 
-  </div> 
-</section> 
-
-    <hr /> <!--LINHA HORIZONTAL DE SEPARAÇÃO-->
-
-
-
-      <!--JAVA PARA CARROSSEL DE SLIDES DINÂMICO E MANUAL POR SETAS-->
-<script>
-  const swiper = new Swiper('.swiper', {
-    // Configuração da navegação (setas funcionando)
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    
-    // Paginação (opcional)
-    pagination: {                
-      el: '.swiper-pagination',
-      clickable: true, // Adiciona clicabilidade aos pontos
-    },
-
-    // Configurações para Loop Infinito
-    loop: true, // Habilita o loop
-    slidesPerView: 1, // Quantidade de slides visíveis
-    spaceBetween: 5, // Espaçamento
-    
-    // Opcional: Adicionar autoplay para ser automático
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false, // Mantém o autoplay após usar as setas
-    },
-  });
-</script>   <!--FIM DO CÓDIGO JAVA E UTILIZAÇÃO-->
-             
-
-
-         <!--CÓDIGO JAVA PAUSADO, SEM AÇÃO DAS SETAS-->
-<script>
-// Certifique-se de importar o Autoplay se estiver usando módulos
-// import Swiper, { Navigation, Pagination, Autoplay } from 'swiper'; 
-// Swiper.use([Navigation, Pagination, Autoplay]);
-
-//const swiper = new Swiper('.swiper', {
-  // Configuração da navegação
-  //spaceBetween: 5,
-  //slidesPerView: 2, // Pode ser 'auto' para slides dinâmicos
-  
-  //navigation: {
-    //nextEl: '.swiper-button-next',
-    //prevEl: '.swiper-button-prev',
-  //},
-  
-  // Opcionais
-  //pagination: { el: '.swiper-pagination', clickable: true },
-
-  // --- ALTERAÇÕES PARA INFINITO/DINÂMICO ---
-  //loop: true, // Habilita o loop infinito
-  
- // autoplay: {
-   // delay: 0, // 0ms para efeito contínuo (marquee)
-   // disableOnInteraction: false, // Continua mesmo após interagir
- // },
-  
- // speed: 15000, // Velocidade da transição (aumente para ser mais lento)
-  
-  // Opcional: Se quiser que mova suavemente sem parar
-  // freeMode: true, 
-  // freeModeSticky: true, 
-  
-  // --- Garante que o Swiper se atualize ao adicionar itens ---
-  // observer: true,
-  //observeParents: true,
-//});
-
- </script>
-
-
-
-<div class="container-horizontal">
-    <div class="caixa"><section class="explica">
-    
-<p class="explica__texto">  <h1 class="titulo-digitando1">  1. LEGISLAÇÃO</h1></p>
-<p class="explica__texto"> 🏛️ MARCOS REGULATÓRIOS: Garantem o direito à inclusão e punem a discriminação.</p>
-<p class="explica__tipo"> Constituição Federal (1988): Consolida a dignidade e a igualdade como direitos fundamentais.</p>
-<p class="explica__tipo"> Lei nº 10.098/2000: Estabelece normas gerais para a eliminação de barreiras urbanas e arquitetônicas.</p>
-<p class="explica__tipo"> Lei Brasileira de Inclusão (LBI - Lei nº 13.146/2015): Conhecida como o Estatuto da Pessoa com Deficiência, redefine a capacidade civil e amplia as obrigações do Estado e de empresas.</p>
-<br>
-</section></div>
-    <div class="caixa"><section class="explica">
-<p class="explica__texto"> <h1 class="titulo-digitando1"> 2. ACESSIBILIDADE</h1></p> 
-<p class="explica__texto">  ♿  DIMENSÕES: Os diferentes âmbitos onde a acessibilidade deve se manifestar.</p>
-<p class="explica__tipo"> Arquitetônica / Urbanística: Rampas, calçadas niveladas, pisos táteis e banheiros adaptados.
-<p class="explica__tipo"> Atitudinal: Eliminação de preconceitos, estereótipos, capacitismo e estigmas sociais.</p>
-<p class="explica__tipo"> Comunicacional: Uso de [Língua Brasileira de Sinais (<a href="https://www.cnmp.mp.br/portal/acessibilidade">LIBRAS no Portal do Ministério Público<a>), audiodescrição, braile e textos simplificados.</p>
-<p class="explica__tipo"> Digital: Sites de órgãos públicos e privados navegáveis por leitores de tela e comandos de voz.</p>
-</section></div>
-</div>
-
-
-
-
-<div class="container-horizontal">
-        <div class="caixa"><section class="explica">
-<p class="explica__texto"> <h1 class="titulo-digitando1"> 3. DIRETRIZES</h1></p>
-<p class="explica__texto"> 📐 TÉCNICAS E PILARES: Normas que orientam a aplicação prática da acessibilidade no espaço físico.</p>
-<p class="explica__tipo"> ABNT NBR 9050: Norma técnica brasileira que regula o dimensionamento de espaços, mobiliário e sinalização urbana.</p>
-<p class="explica__tipo"> Desenho Universal: Conceito de projetar produtos e ambientes para serem usados por todas as pessoas, sem necessidade de adaptação posterior.</p>
-<p class="explica__tipo"> Tríade da Norma: Todo projeto de acessibilidade visa garantir Autonomia, Segurança e Conforto ao usuário.</p>
-</section></div>
-    <div class="caixa"><section class="explica">
-</section></div>
-    
-</div>
+     
 
 <div class="calc">
    <h1 class="titulo-digitando"> C A L C U L E: </h1>
@@ -272,50 +135,7 @@
 
 
 
-    <script>
-
-    const carrosselContainer = document.getElementById('carrossel-fullscreen');
-
-// Executa ao clicar duas vezes no carrossel (evita conflito com arrastar os slides)
-carrosselContainer.addEventListener('dblclick', () => {
-  if (!document.fullscreenElement) {
-    // Entra em tela cheia
-    carrosselContainer.requestFullscreen()
-      .catch(err => console.error(`Erro ao ativar tela cheia: ${err.message}`));
-  } else {
-    // Sai da tela cheia se já estiver nela
-    document.exitFullscreen();
-  }
-});
-
-// Força o Swiper a atualizar o layout após mudar para tela cheia
-document.addEventListener('fullscreenchange', () => {
-  // Substitua "meuSwiper" pela variável onde você instanciou o seu Swiper
-  if (typeof meuSwiper !== 'undefined') {
-    setTimeout(() => meuSwiper.update(), 300); 
-  }
-});
-</script>
-
-<script>
-    const botaoFullscreen = document.getElementById('btn-fullscreen');
-const carrosselSecao = document.querySelector('.carrossel');
-
-botaoFullscreen.addEventListener('click', () => {
-    if (!document.fullscreenElement) {
-        // Solicita a abertura da seção em tela cheia
-        carrosselSecao.requestFullscreen().catch(err => {
-            console.error(`Erro ao tentar abrir tela cheia: ${err.message}`);
-        });
-    } else {
-        // Sai da tela cheia
-        document.exitFullscreen();
-    }
-});
-</script>
-
-
-
+    
 
 
 
@@ -392,13 +212,6 @@ botaoFullscreen.addEventListener('click', () => {
         }
     }
 </script>
-
-
-
-    
-
-
-
 
     
 
