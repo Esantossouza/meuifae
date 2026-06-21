@@ -237,14 +237,15 @@
     <h2>Calculadora Dinâmica</h2>
     
     <label>Digite a Equação (use letras como variáveis):</label>
-    <input type="text" id="equacao" placeholder="Ex: (x + y) * 2">
+    <input type="text" id="equacao" placeholder="Ex: (x + y) * 2" oninput="gerarInputs()">
 
-    <div id="inputs-container"></div>
+    <div id="inputs-container" style="margin-top: 15px;"></div>
 
-    <button onclick="resolverEquacao()">Calcular</button>
+    <button onclick="resolverEquacao()" style="margin-top: 10px;">Calcular</button>
 
     <div class="resultado" id="resultado" style="display:none;"></div>
 </div>
+
 </section></div>
 </div>
 
