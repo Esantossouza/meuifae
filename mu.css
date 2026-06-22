@@ -100,9 +100,9 @@ var.vector span {
 .tabela-equacao {
   width: 100%;
   border-collapse: collapse;
-  font-family: Arial, sans-serif;
+  font-family: Garamond;
   margin: 20px 0;
-  text-align: left;
+  text-align: center;
 }
 
 .tabela-equacao th, 
