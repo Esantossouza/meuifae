@@ -107,8 +107,8 @@ var.vector span {
 
 .tabela-equacao th, 
 .tabela-equacao td {
-    font-size: 2vw;
-  padding: 10px 3px;
+    font-size: 3vw;
+  padding: 5px 2px;
   /* Remove as bordas verticais e mantém apenas a linha inferior */
   border-bottom: 1px solid #dddddd;
   border-left: none;
